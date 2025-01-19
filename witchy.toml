@@ -1,0 +1,80 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "fontconfig-mono"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+[buildPlans.IosevkaCustom.variants]
+inherits = "ss15"
+
+[buildPlans.IosevkaCustom.variants.design]
+one = "base-long-top-serif"
+two = "straight-neck-serifed"
+three = "flat-top-serifless"
+four = "semi-open-serifed"
+five = "oblique-flat-serifed"
+six = "straight-bar"
+seven = "straight-serifed-crossbar"
+eight = "crossing"
+nine = "straight-bar"
+zero = "long-dotted"
+capital-i = "short-serifed"
+capital-j = "serifless"
+capital-q = "crossing-baseline"
+capital-z = "straight-serifless-with-crossbar"
+b = "toothless-rounded-serifed"
+d = "toothless-corner-serifed"
+f = "flat-hook-diagonal-tailed"
+g = "double-storey-open"
+h = "tailed-motion-serifed"
+i = "serifed-diagonal-tailed"
+j = "diagonal-tailed-serifed"
+k = "cursive-bottom-right-serifed"
+l = "serifed-diagonal-tailed"
+m = "short-leg-tailed-top-left-serifed"
+n = "tailed-motion-serifed"
+p = "eared-serifed"
+q = "diagonal-tailed-motion-serifed"
+r = "corner-hooked-top-serifed"
+s = "bilateral-inward-serifed"
+t = "diagonal-tailed"
+u = "tailed-motion-serifed"
+v = "straight-motion-serifed"
+w = "rounded-vertical-sides-motion-serifed"
+x = "curly-serifless"
+y = "cursive-flat-hook-serifed"
+z = "straight-serifless-with-crossbar"
+long-s = "flat-hook-diagonal-tailed-middle-serifed-xh"
+capital-thorn = "motion-serifed"
+lower-thorn = "serifless"
+capital-gamma = "top-right-serifed"
+lower-iota = "serifed-diagonal-tailed"
+lower-tau = "short-tailed"
+lower-upsilon = "casual-serifless"
+lower-chi = "semi-chancery-curly-serifless"
+cyrl-capital-ze = "unilateral-bottom-serifed"
+cyrl-ze = "unilateral-bottom-serifed"
+asterisk = "turn-hex-low"
+number-sign = "slanted-tall"
+at = "fourfold"
+dollar = "slanted-through"
+cent = "slanted-through"
+percent = "rings-continuous-slash-also-connected"
+micro-sign = "tailed-serifless"
+
+[buildPlans.IosevkaCustom.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
